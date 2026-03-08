@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Payment — Mock Site</title>
 
+<style>
+
+body{
+    margin:0;
+    font-family:"Segoe UI", Arial, sans-serif;
+}
+
+header{
+    background-color:grey;
+    padding:60px 40px;
+    font-size:56px;
+    font-weight:800;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+nav{
+    background-color:turquoise;
+    padding:25px 0;
+    text-align:center;
+    font-size:42px;
+    font-weight:500;
+    letter-spacing:12px;
+    text-transform:uppercase;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    margin:5px;
+    transition:0.5s;
+}
+
+nav a:hover{
+    opacity:0.6;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    padding:80px;
+}
+
+.payment-box{
+    background:white;
+    border:3px solid grey;
+    padding:40px;
+    width:500px;
+    font-size:22px;
+}
+
+.payment-box h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.payment-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    font-size:18px;
+}
+
+.paybtn{
+    margin-top:20px;
+    width:100%;
+    padding:15px;
+    font-size:22px;
+    background-color:cyan;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.paybtn:hover{
+    background-color:#00a6a6;
+}
+
+footer{
+    background-color:grey;
+    padding:40px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    margin-top:80px;
+}
+
+</style>
+</head>
+<body>
+  <header>
+  Get ur veri own hitman!! (dont take this seriously)
+  </header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="hitmen.html">Get Hitman</a> |
+    <a href="#">Payment</a>
+  </nav>
+  <div class="container">
+    <div class="payment-box">
+      <h2>Payment Info</h2>
+      <label>Name on Card</label>
+      <input type="text" placeholder="John Wick">
+      <label>Card Number</label>
+      <input type="text" placeholder="1234 5678 9012 3456">
+      <label>Expiry Date</label>
+      <input type="text" placeholder="MM/YY">
+      <label>CVV</label>
+      <input type="text" placeholder="123">
+      <button class="paybtn" onclick="payNow()">Pay $20,000</button>
+    </div>
+  </div>
+  <footer>
+  This is a mock website — for parody/demo purposes only.
+  </footer>
+  <script>
+function payNow(){
+    alert("payment received (probably)");
+}
+</script>
+</body>
+</html>
