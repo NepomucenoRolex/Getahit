@@ -5,6 +5,16 @@ background-color:#f8f8f8;
 color:#222;
 }
 
+.content{
+max-width: 700px;
+font-size: 18px;
+line-height: 1.6;
+color: #333;
+margin: 40px auto;
+padding: 20px;
+font-family: 'Georgia', serif;
+}
+
 header{
 font-family:'Cinzel', serif;
 background-color:grey;
