@@ -42,7 +42,6 @@ margin:5px;
 transition:0.5s;
 }
 
-/* payment page container */
 .payment-container{
 max-width:500px;
 margin:60px auto;
@@ -53,14 +52,12 @@ box-shadow:0 6px 18px rgba(0,0,0,0.15);
 font-family:Arial, sans-serif;
 }
 
-/* title */
 .payment-container h2{
 text-align:center;
 margin-bottom:25px;
 letter-spacing:2px;
 }
 
-/* labels */
 .payment-container label{
 display:block;
 margin-top:15px;
@@ -68,7 +65,6 @@ font-weight:bold;
 color:#333;
 }
 
-/* input fields */
 .payment-container input{
 width:100%;
 padding:12px;
