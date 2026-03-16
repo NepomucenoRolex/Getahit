@@ -1,9 +1,12 @@
 body{
 margin:0;
-font-family:"Segoe UI", Arial, sans-serif;
+font-family: 'Playfair Display', serif;
+background-color:#f8f8f8;
+color:#222;
 }
 
 header{
+font-family:'Cinzel', serif;
 background-color:grey;
 padding:60px 40px;
 font-size:56px;
